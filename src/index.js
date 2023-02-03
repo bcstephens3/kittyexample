@@ -3,11 +3,31 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Contact from './Contact'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Contact 
+      img ="./cat.webp"
+      name="Mr. Whiskerson"
+      phone="(212) 555-1234"
+      email="mr.whiskaz@catnap.meow"/>
+    <Contact 
+    img ="./cat.webp"
+    name="Fluffykins"
+    phone="(212) 555-2345"
+    email="fluff@me.com"/>
+    <Contact 
+    img ="./cat.webp"
+    name="Pumpkin"
+    phone="(0800) CAT KING"
+    email="pumpkin@scrimba.com"/>
+    <Contact 
+    img ="./cat.webp"
+    name="Felix"
+    phone="(212) 555-4567"
+    email="thecat@hotmail.com"/>
   </React.StrictMode>
 );
 
